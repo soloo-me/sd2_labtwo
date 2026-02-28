@@ -3,9 +3,9 @@
 
 public class Conversions {
     
-    public double euroToDollar(double euro) {
-        return 0.0;
-    }
+	public double euroToDollar(double euro) {
+	    return euro * 1.08;
+	}
     
     public double dollarToEuro(double dollar) {
         return 0.0;
