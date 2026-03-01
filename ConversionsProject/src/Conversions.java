@@ -16,9 +16,9 @@ public class Conversions {
 	}
     
 
-    public String integerToString(int val) {
-        return "";
-    }
+	public String integerToString(int val) {
+	    return String.valueOf(val);
+	}
     
     public String switchCase(String input) {
         return "";
