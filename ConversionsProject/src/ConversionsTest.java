@@ -11,9 +11,9 @@ public class ConversionsTest {
     Conversions converter = new Conversions();
     
     @Test
-    public void testIntegerToString() {
-        assertEquals("100", converter.integerToString(100), "Integer 100 should convert to string '100'");
-        assertEquals("-50", converter.integerToString(-50), "Integer -50 should convert to string '-50'");
-        assertEquals("0", converter.integerToString(0), "Integer 0 should convert to string '0'");
+    public void testSwitchCase() {
+        assertEquals("hELLO wORLD", converter.switchCase("Hello World"), "Mixed case should be switched");
+        assertEquals("java", converter.switchCase("JAVA"), "Uppercase should become lowercase");
+        assertEquals("TESTING", converter.switchCase("testing"), "Lowercase should become uppercase");
     }
 }
